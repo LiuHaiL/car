@@ -106,7 +106,7 @@ class User extends Frontend
     }
 
 
-    //用户实名认证
+    //用户实名认证1212211221
     public function userRealNameAuth() : void {
         if ($this->request->isPost()) {
             $data   = $this->request->param();
