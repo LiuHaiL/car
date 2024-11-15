@@ -11,18 +11,17 @@ use app\common\library\token\TokenExpirationException;
 
 class Index extends Frontend
 {
-    protected array $noNeedLogin = ['index'];
+    protected array $noNeedLogin = ['initList'];
 
     public function initialize(): void
     {
         parent::initialize();
     }
-
     /**
      * 前台和会员中心的初始化请求
      * @throws Throwable
      */
-    public function index(): void
+    public function initList(): void
     {
         $menus = [];
         

@@ -8,7 +8,7 @@ Route::group(function () {
   //退出登录
   Route::post('logout', 'User/logout');
   //初始化
-  Route::get('index', 'Index/index');
+  Route::get('index', 'Index/initList');
   //上传
   Route::post('upload','Ajax/upload');
   //用户实名认证
